@@ -21,7 +21,7 @@ const pricePerDroid = 3000;
 const numbersDroids = prompt("сколько дронов вы хотите купить?");
 const totalPrice = Number(numbersDroids) * pricePerDroid;
 const balanceCredits = credits - totalPrice;
-if (numbersDroids == null) {
+if (numbersDroids === null) {
   console.log("отменено пользователем");
 }
 else if (totalPrice > credits) {
