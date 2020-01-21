@@ -1,9 +1,10 @@
 "use strict";
-const total = 100;
-const order = 20;
 
-if (order < total) {
-  console.log("Заказ оформлен, с вами свяжется менеджер");
-} else {
-  console.log("На складе недостаточно твоаров");
-}
+const total = 100;
+const order = 50;
+ if(order > total) {
+   console.log("На складе недостаточно твоаров!");
+ }
+ else { 
+   console.log("Заказ оформлен, с вами свяжется менеджер");
+ }
